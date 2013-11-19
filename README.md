@@ -41,18 +41,18 @@ Now its is expected you see in group id: *br.com.its.archetypes*
 
 * choose the archetype and go ahead clicking in next 
 
-###Resolving dependency in module webapps-web 
+Step 4 Resolving dependency in module webapps-web
 
-This module has dependency of **webapps-core**. The archetype has default configuration, but you must update according to your project. Following theses steps after your project has been created: 
+This module has dependency of **webapps-core**. The archetype has default configuration, but you must update according to your project. Check the steps:
 
 **Steps** 
 
 * import maven project webapps-core and webapps-web for your IDE; 
 * open webapps-web/pom.xml ;
-* remove webapps-core 1.0.0 of dependency; 
+* remove webapps-core 1.0.0 of dependency (its default of archetype and it does not work for your custom structure); 
 * click in add; 
-* type webapps; 
-* Choose webapps-core according to  groupId that was defined when you created the project; 
+* type **webapps**; 
+* Choose **webapps-core** according to  **groupId** that was defined when you created the project; 
 
 **Testing**
 
@@ -75,4 +75,4 @@ mvn tomcat:run
 
 **Conclusion**
 
-This archetype is flexible to  change and custom package, module etc.According to your project. 
+webapps-module archetype is flexible to  change and to be  customatized according to your project. Feel free and improve it and send pull request.
