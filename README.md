@@ -1,6 +1,6 @@
 ##Maven Archetype-webapps-module 
 
-webapps module archetype maven for creating web application with Hibernate, Spring,Spring Security, Jersey, DBUnit and Util Java API separated by modules  back/front-end.
+webapps module archetype maven for creating web application with Hibernate, Spring, Jersey, DBUnit and Util Java API separated by modules  back/front-end.
 
 ###Required 
 
@@ -12,7 +12,7 @@ webapps module archetype maven for creating web application with Hibernate, Spri
 * Service Generic implemented; 
 * Structure for DBUnit done; 
 * back/front end separated in modules: webapps-core and webapps-web 
-* flyway plugin setup for db migration; 
+* [flyway plugin](http://flywaydb.org) setup for db migration; 
 
 
 ###How to Install local?
