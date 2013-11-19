@@ -7,7 +7,6 @@
     <artifactId>${rootArtifactId}</artifactId>
     <version>${version}</version>
   </parent>
-  <groupId>${groupId}.core</groupId>
   <artifactId>${artifactId}</artifactId>
   <name>webapps-core</name>
   <properties>
@@ -123,4 +122,6 @@
 			<version>3.3</version>
 		</dependency>
   </dependencies>
+  <version>${version}</version>
+  <groupId>${groupId}.core</groupId>
 </project>

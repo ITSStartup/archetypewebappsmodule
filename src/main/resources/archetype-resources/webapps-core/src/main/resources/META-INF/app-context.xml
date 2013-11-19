@@ -19,7 +19,7 @@
 	<!-- Spring's translator exception for Hibernate 4 -->
 	<bean class="org.springframework.orm.hibernate4.HibernateExceptionTranslator" />
 
-
+<!-- CHANGE FOR DATA OF YOUR DATABASE -->
 	<bean id="dataSource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
@@ -32,6 +32,7 @@
 	<bean id="sessionFactory"
 		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
 		<property name="dataSource" ref="dataSource" />
+		<!-- CHANGE THE VALUE FOR PATH OF YOU MODAL DOMAIN -->
 		<property name="packagesToScan" value="br.com.its.core.modal.domain" />
 		<property name="hibernateProperties">
 			<props>
