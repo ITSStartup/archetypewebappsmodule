@@ -14,16 +14,15 @@ webapps module archetype maven for creating web application with Hibernate, Spri
 * back/front end separated in modules: webapps-core and webapps-web 
 * [flyway plugin](http://flywaydb.org) setup for db migration; 
 
-
 ###How to Install local?
 
-Step 1 
+**Step 1**
 
 ```java
-git clone git@github.com:ITSStartup/archetypewebappsmodule.git
+git clone git@github.com:camilolopes/archetypewebappsmodule.git
 ```
 
-Step 2 
+**Step 2**
 
 * Go to the folder and execute: 
 
@@ -31,7 +30,7 @@ Step 2
 mvn clean install 
 ```
 
-Step 3 
+**Step 3**
 
 * create new maven project via Eclipse ;
 * in Catalog choose **All Catalogs**;
@@ -41,7 +40,7 @@ Now its is expected you see in group id: *br.com.its.archetypes*
 
 * choose the archetype and go ahead clicking in next 
 
-Step 4 Resolving dependency in module webapps-web
+**Step 4 Resolving dependency in module webapps-web**
 
 This module has dependency of **webapps-core**. The archetype has default configuration, but you must update according to your project. Check the steps:
 
